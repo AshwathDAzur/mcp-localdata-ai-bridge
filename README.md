@@ -138,8 +138,7 @@ To use this MCP server in Cursor, you need to add it to Cursor's MCP configurati
   "mcpServers": {
     "sqlserver": {
       "command": "node",
-      "args": ["dist/index.js"],
-      "cwd": "C:\\OrgProjects\\SkillUps\\ModelContextProtocol",
+      "args": ["C:\\\\OrgProjects\\\\SkillUps\\\\ModelContextProtocol\\\\dist\\\\index.js"],
       "env": {
         "SQL_SERVER_HOST": "localhost",
         "SQL_SERVER_PORT": "1433",

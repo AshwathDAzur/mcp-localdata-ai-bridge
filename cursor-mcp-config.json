@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "sqlserver": {
+      "command": "node",
+      "args": ["C:\\\\OrgProjects\\\\SkillUps\\\\ModelContextProtocol\\\\dist\\\\index.js"],
+      "env": {
+        "SQL_SERVER_HOST": "localhost",
+        "SQL_SERVER_PORT": "1433",
+        "SQL_SERVER_DATABASE": "SampleDB",
+        "SQL_SERVER_USER": "sa",
+        "SQL_SERVER_PASSWORD": "devPass@2025",
+        "SQL_SERVER_ENCRYPT": "false"
+      }
+    }
+  }
+}
